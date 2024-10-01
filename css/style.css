@@ -13,7 +13,7 @@ body {
 /* --------------------------------- Nav */
 
 .navbar {
-    background-color: #f2faff;
+    background-color: #77b1e0;
 }
 
 .navbar-brand,
@@ -23,11 +23,15 @@ body {
     color: #003055;
 }
 
+.navbar-brand {
+    color: #f2faff;
+}
+
 .navbar-item:hover {
     cursor: pointer;
 }
 
-/* --------------------------------- Containers */
+/* --------------------------------- Hero Container */
 
 .container-wrapper {
     background-color: #f2faff;
@@ -36,6 +40,7 @@ body {
 .hero-container {
     height: 100vh;
     color: #003055;
+    background: url("assets/images/job-savelsberg-XdcPw9bYOw0-unsplash.webp") no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -57,13 +62,60 @@ body {
     padding-bottom: 20px;
 }
 
+.btn-primary {
+    background-color: #77b1e0;
+    border: #77b1e0;
+    padding: 10px;
+    font-size: 26px;
+    color: #003055;
+}
+
+.btn-primary:hover {
+    background-color: #003055;
+    color: #f2faff;
+}
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
+
+
 /* --------------------------------- Info cards */
 
-
+.card {
+    margin-bottom: 20px;
+}
 
 /* --------------------------------- World Mental Health Day section */
+.wmhd-container {
+    padding: 40px 0 40px 0;
+}
+
 
 /* --------------------------------- External Resource section */
+
+
+
+/* --------------------------------- Quotes */
+
+.quote-container {
+    padding: 30px;
+    color: #003055;
+    background-color: #77b1e0;
+}
 
 /* --------------------------------- Footer */
 
