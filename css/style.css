@@ -59,12 +59,26 @@ body {
 
 /* --------------------------------- Info cards */
 
-.info-cards {
-    padding: 0 auto;
-}
+
 
 /* --------------------------------- World Mental Health Day section */
 
 /* --------------------------------- External Resource section */
 
 /* --------------------------------- Footer */
+
+/* Footer */
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    color: #003055;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #003055;
+}
