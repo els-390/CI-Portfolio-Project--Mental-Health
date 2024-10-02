@@ -1,14 +1,43 @@
-# Portfolio Project - Mental Health Matters
+# Portfolio Project - Mental Health Matters Website
 
+First individual Code Institute project
 
+<a href="https://els-390.github.io/CI-Portfolio-Project--Mental-Health/">Deployed project link</a>
+
+## Mock Ups
+
+<img src="assets/images/Screenshot 2024-10-02 at 16.13.17.webp">
 
 ## Overview
 
+### The Brief: 
+
+#### Project 4: Mental Health Awareness
+
+##### External User’s Goal:
+
+The user seeks accessible, beginner-friendly information on mental health, including how to recognize common issues and manage stress, presented in a supportive and organised layout.
+
+##### Site Owner’s Goal:
+
+The site owner wants to create a welcoming webpage that provides basic mental health information using a clean and supportive design. The focus is on using HTML and CSS with Bootstrap to create a calming and well-organised user experience.
+
+##### Potential Features might Include:
+
+* Hero Section with Positive Messaging: A Bootstrap Jumbotron with an encouraging message about mental health, using a calming colour scheme and a simple background image.
+* Information Cards: Use Bootstrap’s card components to present mental health tips and common issues, providing a visually appealing way to organise content.
+* Resource Links: A grid layout for external links to mental health resources, styled with Bootstrap buttons to make them stand out.
+* Positive Affirmations: Use Bootstrap’s text utilities to include a section with uplifting quotes or messages to encourage users.
+
 ### Purpose
+
 This project is designed to be a one page resource on Mental Health showcasing HTML, CSS and Bootstrap. The project will provide a resource to help its users to understand what is mental health, why it is important, how to maintain good mental health and where to go to find support.
 
 ### Target Audience
-The target audience for this website will include: Individuals seeking help for their mental health, health and care providers and professionals, and members of the general public. It will be accessible to a wide range of users from different demographics and marginalised communities. 
+
+The target audience for this website will include: Individuals seeking help for their mental health, health and care providers and professionals, and members of the general public. 
+
+It will be accessible to a wide range of users from different demographics and marginalised communities. 
 
 ## User Stories
 
@@ -37,16 +66,50 @@ Members of marginalized communities: Individuals from diverse backgrounds, inclu
 
 ### Wireframes
 
-<img src ="assets/images/Mental Health Wireframes.png">
+<img src ="assets/images/Mental Health Wireframes.webp">
 
+### Features 
 
+#### Must Haves
+ 1. User friendly information
+ - Content clear and concise
+ - Easy to use functionality
 
+ 2. Responsive mobile-friendly design
+- Website displays and functions well on smartphones and other devices
+- Responsive design that adapts when viewe on different models and aspect ratios
 
+ 3. Clear and organised navigation 
+ - Navigation items are clear and intuitive to all users
 
+ #### Should Have
+ 1. Contrasting but calming colour scheme and design
+ - Relevant image for text and feature content
+ - ALT tags for all images and icons
+ - A range of colours to convey messaging (light, medium, dark)
 
+ 2. Clear and simple page layout
+ - Utilising simple legible fonts to support content
+ - Clear spacing and design throughout
 
-<br>
-<br>
+#### Could Have
+1. Further reading and resources
+- Links opening in new tab to not take users away from site
+- Further resources available on site
+
+## Tools and Technologies Used
+
+- HTML5
+
+- CSS3
+
+- Bootstrap 4.6
+
+- Gitpod - cloud IDE
+
+- Font Awesome
+
+- Google Fonts
 
 ### Accessibility Considerations
 Discuss how accessibility guidelines were adhered to, including colour contrast and alt text for images.  
@@ -58,28 +121,7 @@ Discuss how accessibility guidelines were adhered to, including colour contrast 
 Describe how DALL-E was used for image generation, including examples of successes and challenges.  
 **Guidance:** Specifically mention how you used DALL-E for image generation and the impact this had on your design process.
 
-## Features Implementation
 
-### Core Features (Must-Haves)
-- **Feature 1:** Description of the implemented feature.
-- **Feature 2:** Description of the implemented feature.
-
-(Include all must-have features)  
-**Guidance:** Use this section as you complete Phase 2: Must User Stories Implementation & Testing. Document all the must-have features you implemented, explaining how they align with the user stories and acceptance criteria.
-
-### Advanced Features (Should-Haves)
-- **Feature 1:** Description of the implemented feature.
-- **Feature 2:** Description of the implemented feature.
-
-(Include all should-have features)  
-**Guidance:** Include any advanced features you implemented during Phase 3: Should User Stories Implementation & Any Advanced Features. Explain how these features enhance user experience and their alignment with the acceptance criteria.
-
-### Optional Features (Could-Haves)
-- **Feature 1:** Description of the implemented feature (if any).
-- **Feature 2:** Description of the implemented feature (if any).
-
-(Include any could-have features that were implemented or considered)  
-**Guidance:** If any could-have features were implemented, describe them here. This is an opportunity to showcase extra work done beyond the initial scope. But remember - keep it simple! Focus on the Must stories first. Could user story features are commonly earmarked for future project iterations.
 
 ## AI Tools Usage
 
