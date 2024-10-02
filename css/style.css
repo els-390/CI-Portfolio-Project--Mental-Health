@@ -126,9 +126,6 @@ body {
 
 /* --------------------------------- External Resource section */
 
-.external-container > card-body {
-    padding: 10px;
-}
 .samaritans-logo {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -141,6 +138,7 @@ body {
 }
 
 /* --------------------------------- Quotes */
+
 .quote-container {
     height: 310px;
     padding: 30px;
@@ -148,7 +146,28 @@ body {
     background-color: #36686E;
 }
 
+.carousel-inner {
+    padding-top: 35px;
+    text-align: center;
+}
+
+.carousel-item {
+    font-size: 24px;
+}
+
+.blockquote-footer {
+    color: #fff;
+    font-style: italic;
+    font-size: 16px;
+}
+
 /* --------------------------------- Footer */
+
+footer {
+    background-color: #36686E;
+    margin-top: 30px;
+    padding: 20px;
+}
 
 #social-networks {
     text-align: center;
@@ -156,11 +175,11 @@ body {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-    color: #003055;
+    color: #d5e8e6
 }
 
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color: #003055;
+    color: #d5e8e6;
 }
