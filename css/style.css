@@ -33,6 +33,10 @@ body {
     font-size: 24px;
 }
 
+.nav-bar-collapse {
+    color: #fff;
+}
+
 .navbar-item:hover {
     cursor: pointer;
 }
@@ -61,6 +65,14 @@ body {
     justify-content: center;
 
     position: relative;
+}
+
+.jumbotron {
+    background: rgba(235, 232, 232, 0.5);
+}
+
+.lead {
+    font-weight: 400;
 }
 
 .opaque-overlay {
