@@ -16,7 +16,7 @@
         <!-- Header -->
         <header>
             <!-- Nav bar -->
-            <nav class="navbar navbar-expand-lg navbar-light">
+            <nav class="navbar navbar-expand-lg">
                 <a class="navbar-brand" href="#">Mental Health Matters</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -78,8 +78,8 @@
 
         <section class="info-cards">
             <div class="container text-center">
-                <div class="row row-cols-4">
-                    <div class="col">
+                <div class="row">
+                    <div class="col d-flex justify-content-center">
                         <div class="card" style="width: 20rem;">
                             <img src="assets/images/tadeusz-lakota-QzGPZuj5fYM-unsplash.webp" class="card-img-top"
                                 alt="...">
@@ -96,7 +96,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col d-flex justify-content-center">
                         <div class="card" style="width: 20rem;">
                             <img src="assets/images/sweet-life-h0VBeMToLIo-unsplash.webp" class="card-img-top"
                                 alt="...">
@@ -111,8 +111,7 @@
                             </div>
                         </div>
                     </div>
-
-                    <div class="col">
+                    <div class="col d-flex justify-content-center">
                         <div class="card" style="width: 20rem;">
                             <img src="assets/images/kaylee-garrett-GaprWyIw66o-unsplash.webp" class="card-img-top"
                                 alt="...">
@@ -128,7 +127,7 @@
                         </div>
                     </div>
 
-                    <div class="col">
+                    <div class="col d-flex justify-content-center">
                         <div class="card" style="width: 20rem;">
                             <img src="assets/images/umit-bulut-qbTC7ZwJB64-unsplash.webp" class="card-img-top"
                                 alt="...">
@@ -144,7 +143,7 @@
                         </div>
                     </div>
 
-                    <div class="col">
+                    <div class="col d-flex justify-content-center">
                         <div class="card" style="width: 20rem;">
                             <img src="assets/images/matheus-ferrero-TkrRvwxjb_8-unsplash.webp" class="card-img-top"
                                 alt="...">
@@ -160,7 +159,7 @@
                         </div>
                     </div>
 
-                    <div class="col">
+                    <div class="col d-flex justify-content-center">
                         <div class="card" style="width: 20rem;">
                             <img src="assets/images/timur-shakerzianov-mYNR1upvnZM-unsplash.webp" class="card-img-top"
                                 alt="...">
@@ -181,48 +180,53 @@
 
         <!-- World Mental Health Day section -->
 
-        <section>
-
-            <div class="container mt-5">
-                <div class="row align-items-center">
-                    <div class="col-md-6">
-                        <img src="assets/logos/World Mental Health Day logo - white.webp" class="img-fluid"
-                            alt="World Mental Health Day Logo">
-                    </div>
-                    <div class="col-md-6">
-                        <h3>World Mental Health Day</h3>
-                        <p>
-                            On World Mental Health Day, let’s all come together to talk about mental health and show
+        <section class="wmhd-section">
+                <div class="container text-center">
+                    <div class="row">
+                        <div class="col d-flex justify-content-center">
+                            <div class="card" style="width: 30rem;">
+                                <img src="assets/logos/World Mental Health Day logo - white.webp" class="card-img-top"
+                                alt="World Mental Health Day Logo">
+                                <div class="card-body">
+                                    <h3 class="card-title">
+                                        World Mental Health Day
+                                    </h3>
+                                    <p class="card-text">
+                                        On World Mental Health Day, let’s all come together to talk about mental health and show
                             everyone that
                             mental
                             health matters. This year, the theme is workplace mental health. Check out our resources for
                             workplaces,
                             schools, communities and more!
-                        </p>
+                                    </p>
+                                    <a href="#"
+                                    class="btn btn-primary hvr-grow">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
         </section>
 
         <!-- External Resource section -->
         <section>
             <div class="external-container">
-                <div class="container mt-5">
+                <div class="container">
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col d-flex justify-content-center">
                             <div class="card">
-                                <img src="assets/logos/Samaritans_2019.svg.webp" class="card-img-top"
-                                    alt="Card image 1">
-                                <div class="card-body">
+                                <div class="samaritans-logo"><img src="assets/logos/Samaritans_2019.svg.webp" class="card-img-top"
+                                    alt="Card image 1"></div>
+                                <div class="card-body text-center">
                                     <a href="https://www.samaritans.org/" class="btn btn-primary hvr-grow">Learn More</a>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-md-6">
+                        <div class="col justify-content-center">
                             <div class="card">
-                                <img src="assets/logos/nhs.webp" class="card-img-top" alt="Card image 2">
-                                <div class="card-body">
+                                <div class="nhs-logo"><img src="assets/logos/nhs.webp" class="card-img-top" alt="Card image 2"></div>
+                                <div class="card-body text-center">
                                     <a href="https://www.nhs.uk/nhs-services/mental-health-services/"
                                         class="btn btn-primary hvr-grow">Learn More</a>
                                 </div>
@@ -246,7 +250,6 @@
                                         consider taking medication for an ear infection something to be ashamed of. We
                                         shouldn’t treat mental health
                                         conditions any differently.”
-                                        Michelle Obama
                                         <footer class="blockquote-footer">Michelle Obama</footer>
                                 </blockquote>
                             </div>
