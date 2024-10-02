@@ -2,11 +2,11 @@
 
 First individual Code Institute project
 
-<a href="https://els-390.github.io/CI-Portfolio-Project--Mental-Health/">Deployed project link</a>
+[Deployed project link](https://els-390.github.io/CI-Portfolio-Project--Mental-Health/)
 
 ## Mock Ups
 
-<img src="assets/images/Screenshot 2024-10-02 at 16.13.17.webp">
+![Mock Up](assets/images/mockup.webp)
 
 ## Overview
 
@@ -66,9 +66,16 @@ Members of marginalized communities: Individuals from diverse backgrounds, inclu
 
 ### Wireframes
 
-<img src ="assets/images/Mental Health Wireframes.webp">
+![Wireframes](assets/images/MH-wireframes.webp)
 
 ### Features 
+
+- Navbar with nav options, drop dowm menu and navbar toggler
+- Hero section with background image, positive messaging and CTA 
+- Information cards on menu health support information options
+- External links to outside sources for further information 
+- Carousel of positive quotes/messages
+- Footer with social media icons/links
 
 #### Must Haves
  1. User friendly information
@@ -97,19 +104,35 @@ Members of marginalized communities: Individuals from diverse backgrounds, inclu
 - Links opening in new tab to not take users away from site
 - Further resources available on site
 
+### Inital Design Thoughts and Ideas
+
+ As this website is to inform users about mental health, why it is important and how to seek support and further information so I would like to include a calming design and colour scheme without lots of dynamic elements and piece of content. 
+
+ ## Colours and Images 
+
+ I will select a carefully considered set of images to include that don't clash with the colour scheme, are diverse and inclusive and match the content being described and featured. 
+
+Using the [ColorZilla Chrome Extension](https://chromewebstore.google.com/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp) I can select colours from my background image to use in the rest of my webpage design to ensure the colours do not clash. 
+
 ## Tools and Technologies Used
 
 - HTML5
 
 - CSS3
 
-- Bootstrap 4.6
+- [Bootstrap 4.6](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
 
-- Gitpod - cloud IDE
+- Gitpod - Code Institue cloud IDE
 
-- Font Awesome
+- [Font Awesome](fontawesome.com)
 
-- Google Fonts
+- [Google Fonts](fonts.google.com)
+
+- [ColorZilla](https://chromewebstore.google.com/detail/colorzilla/bhlhnicpbhignbdhedgjhg)
+
+- [Unsplash](unsplash.com)
+
+- [Tinypng.com](Tinypng.com)
 
 ### Accessibility Considerations
 Discuss how accessibility guidelines were adhered to, including colour contrast and alt text for images.  
@@ -117,17 +140,22 @@ Discuss how accessibility guidelines were adhered to, including colour contrast 
 
 ## AI Tools Usage
 
-### DALL-E
-Describe how DALL-E was used for image generation, including examples of successes and challenges.  
-**Guidance:** Specifically mention how you used DALL-E for image generation and the impact this had on your design process.
+- Utilised Google Gemini AI tool to research names for the website
+- Quote section at the bottom of the website was also provided by ChatGPT and modified by myself using CSS and Bootstrap 4.6
 
 
 
-## AI Tools Usage
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
-### GitHub Copilot
-Describe how GitHub Copilot assisted in coding, including any challenges or adjustments needed.  
-**Guidance:** Reflect on how GitHub Copilot assisted in coding, particularly any challenges or adjustments that were needed to align with project goals.
+
+# To be continued...
+
 
 ## Testing and Validation
 
@@ -141,7 +169,7 @@ Discuss the validation process for HTML and CSS using W3C and Jigsaw validators.
 Include the results of the validation process.  
 **Guidance:** Document your use of W3C and Jigsaw validators to ensure your HTML and CSS meet web standards. Include any errors or warnings encountered and how they were resolved.
 
-## AI Tools Usage
+
 
 ### GitHub Copilot
 Brief reflection on the effectiveness of using AI tools for debugging and validation.  
