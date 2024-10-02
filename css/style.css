@@ -33,12 +33,19 @@ body {
     font-size: 24px;
 }
 
-.nav-bar-collapse {
-    color: #fff;
+.navbar-toggler-icon {
+    color: #d5e8e6;
+    padding-top: 5px;
 }
 
 .navbar-item:hover {
     cursor: pointer;
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+    color: #fff;
+    font-size: larger;
 }
 
 /* --------------------------------- Hero Container */
@@ -178,7 +185,7 @@ body {
 footer {
     background-color: #36686E;
     margin-top: 30px;
-    padding: 20px;
+    padding: 10px;
 }
 
 #social-networks {
