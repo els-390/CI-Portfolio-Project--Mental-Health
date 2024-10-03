@@ -135,26 +135,20 @@ Using the [ColorZilla Chrome Extension](https://chromewebstore.google.com/detail
 - [Tinypng.com](Tinypng.com)
 
 ### Accessibility Considerations
-Discuss how accessibility guidelines were adhered to, including colour contrast and alt text for images.  
-**Guidance:** Outline how you've incorporated accessibility into your design, ensuring that your project adheres to guidelines such as WCAG.
+
+- Utilising contrasting colours for the design and themes
+- Adding ALT tags to images and icons
+- Ensuring links open in new tabs when clicked
 
 ## AI Tools Usage
 
 - Utilised Google Gemini AI tool to research names for the website
 - Quote section at the bottom of the website was also provided by ChatGPT and modified by myself using CSS and Bootstrap 4.6
 
+# To be continued...### Reflection
+Describe the role AI tools played in the deployment process, including any benefits or challenges.  
+**Guidance:** Reflect on how AI tools assisted with the deployment process, particularly how they streamlined any tasks or presented challenges.
 
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-
-# To be continued...
 
 
 ## Testing and Validation
@@ -169,24 +163,12 @@ Discuss the validation process for HTML and CSS using W3C and Jigsaw validators.
 Include the results of the validation process.  
 **Guidance:** Document your use of W3C and Jigsaw validators to ensure your HTML and CSS meet web standards. Include any errors or warnings encountered and how they were resolved.
 
-
-
-### GitHub Copilot
-Brief reflection on the effectiveness of using AI tools for debugging and validation.  
-**Guidance:** Reflect on how GitHub Copilot assisted with debugging and validation, particularly any issues it helped resolve.
-
 ## Deployment
 
 ### Deployment Process
 Briefly describe the deployment process to GitHub Pages or another cloud platform.  
 Mention any specific challenges encountered during deployment.  
 **Guidance:** Describe the steps you took to deploy your website during Phase 4: Final Testing, Debugging & Deployment, including any challenges encountered.
-
-## AI Tools Usage
-
-### Reflection
-Describe the role AI tools played in the deployment process, including any benefits or challenges.  
-**Guidance:** Reflect on how AI tools assisted with the deployment process, particularly how they streamlined any tasks or presented challenges.
 
 ## Reflection on Development Process
 
