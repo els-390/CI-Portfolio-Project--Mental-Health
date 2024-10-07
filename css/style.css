@@ -39,7 +39,7 @@ div {
 .navbar-brand,
 .nav-item,
 .nav-link {
-    font-size: 24px;
+    font-size: 22px;
 }
 
 .navbar-toggler-icon {
@@ -140,6 +140,10 @@ div {
 
 .wmhd-logo {
     width: 500px;
+}
+
+div > .wmhd-title {
+    font-size: 18px;
 }
 
 .wmhd-text {
