@@ -8,9 +8,18 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+p {
+    font-size: 16px;
+}
+
+div {
+    font-size: 16px;
+}
+
 .card-title,
 .card-text {
     color: #003055;
+    font-size: 16px;
 }
 
 /* --------------------------------- Header */
@@ -19,6 +28,7 @@ body {
 
 .navbar {
     background-color: #36686E;
+    padding: 10px;
 }
 
 .navbar-brand,
@@ -37,14 +47,10 @@ body {
     padding-top: 5px;
 }
 
-.navbar-item:hover {
-    cursor: pointer;
-}
-
 .navbar-brand:hover,
 .nav-link:hover {
     color: #fff;
-    font-size: larger;
+
 }
 
 /* --------------------------------- Hero Container */
@@ -94,7 +100,7 @@ body {
     background-color: #d5e8e6;
     border: #d5e8e6;
     padding: 10px;
-    font-size: 26px;
+    font-size: 22px;
     color: #003055;
 }
 
@@ -183,8 +189,8 @@ body {
 
 footer {
     background-color: #36686E;
-    margin-top: 30px;
-    padding: 10px;
+    margin-top: 20px;
+    padding: 5px;
 }
 
 #social-networks {
@@ -200,4 +206,8 @@ footer {
     font-size: 160%;
     padding: 5%;
     color: #d5e8e6;
+}
+
+#social-networks i:hover {
+    color: #fff;
 }
